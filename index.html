@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register-form">
+            <div class="left">
+                <h3>Register</h3>
+                <input type="text" class="input" placeholder="Name" oninput="Name()">
+                <p>* Sorry</p>
+                <input type="text" class="input" placeholder="Username" oninput="Username()">
+                <p>* Sorry</p>
+                <input type="email" class="input" placeholder="Email" oninput="Email()">
+                <p>* Sorry</p>
+                <input type="password" class="input" placeholder="Password" oninput="Password()">
+                <p>* Sorry</p>
+                <input type="password" class="input" placeholder="Confirm Password" oninput="Confirm()">
+                <p>* Sorry</p>
+                <input type="radio" id="gender-male" name="gender" value="Male" onclick="Gender()">
+                <label for="gender-male">Male</label>
+                <input type="radio" id="gender-female" name="gender" value="Female" onclick="Gender()">
+                <label for="gender-female">Female</label>
+                <p>* Sorry</p>
+                <div class="button">
+                    <button class="register" id="register">Register</button>
+                </div>
+            </div>
+            <div class="right"></div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
